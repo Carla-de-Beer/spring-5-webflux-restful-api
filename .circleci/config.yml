@@ -34,24 +34,6 @@ jobs:
 
       - run: mvn dependency:go-offline
 
-      - run:
-          name: Waiting for MySQL to be ready
-          command: |
-            for i in `seq 1 30`;
-            do
-              nc -z 127.0.0.1 3306 && echo Success && exit 0
-              echo -n .
-              sleep 1
-            done
-            echo Failed waiting for MySQL && exit 1
-
-      # Import DB Dump
-      - run:
-          name: Install MySQL CLI
-          command: |
-            sudo apt-get install mysql-client
-            mysql -h 127.0.0.1 -u user -ppassw0rd test_db < sql-data/dummy.sql
-
       - save_cache:
           paths:
             - ~/.m2
