@@ -11,7 +11,7 @@
     <groupId>com.cadebe</groupId>
     <artifactId>webflux-reactive</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>webflux-reactive</name>
+    <name>spring-5-webflux-restful-api</name>
     <description>Demo project for Spring Boot Reactive</description>
 
     <properties>
