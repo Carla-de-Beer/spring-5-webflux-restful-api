@@ -3,9 +3,10 @@
 
 This is a Spring Boot API project with a simple set of Category and Vendor entities, stored inside a MongoDB database, making use of WebFlux.
 
-## Technology Used
+## Required
 
 * Java 11
-* Spring Boot 2.2.0
-* MongoDB 
+* Spring Boot 2.2.1.RELEASE
+* Maven 3.6.2
+* MongoDB 4.2.2
 * JUnit 5 and Mockito
