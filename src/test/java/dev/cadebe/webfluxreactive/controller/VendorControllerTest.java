@@ -1,8 +1,8 @@
-package com.cadebe.webfluxreactive.controller;
+package dev.cadebe.webfluxreactive.controller;
 
-import com.cadebe.webfluxreactive.domain.Category;
-import com.cadebe.webfluxreactive.domain.Vendor;
-import com.cadebe.webfluxreactive.repository.VendorRepository;
+import dev.cadebe.webfluxreactive.domain.Category;
+import dev.cadebe.webfluxreactive.domain.Vendor;
+import dev.cadebe.webfluxreactive.repository.VendorRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

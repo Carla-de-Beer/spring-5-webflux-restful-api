@@ -1,4 +1,4 @@
-package com.cadebe.webfluxreactive.domain;
+package dev.cadebe.webfluxreactive.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

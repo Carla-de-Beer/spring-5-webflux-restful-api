@@ -1,4 +1,4 @@
-package com.cadebe.webfluxreactive;
+package dev.cadebe.webfluxreactive;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

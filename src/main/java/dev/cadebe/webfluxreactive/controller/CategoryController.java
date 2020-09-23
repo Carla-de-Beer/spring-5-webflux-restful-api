@@ -1,7 +1,7 @@
-package com.cadebe.webfluxreactive.controller;
+package dev.cadebe.webfluxreactive.controller;
 
-import com.cadebe.webfluxreactive.domain.Category;
-import com.cadebe.webfluxreactive.repository.CategoryRepository;
+import dev.cadebe.webfluxreactive.domain.Category;
+import dev.cadebe.webfluxreactive.repository.CategoryRepository;
 import org.reactivestreams.Publisher;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

@@ -1,9 +1,9 @@
-package com.cadebe.webfluxreactive.bootstrap;
+package dev.cadebe.webfluxreactive.bootstrap;
 
-import com.cadebe.webfluxreactive.domain.Category;
-import com.cadebe.webfluxreactive.domain.Vendor;
-import com.cadebe.webfluxreactive.repository.CategoryRepository;
-import com.cadebe.webfluxreactive.repository.VendorRepository;
+import dev.cadebe.webfluxreactive.domain.Category;
+import dev.cadebe.webfluxreactive.domain.Vendor;
+import dev.cadebe.webfluxreactive.repository.CategoryRepository;
+import dev.cadebe.webfluxreactive.repository.VendorRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
